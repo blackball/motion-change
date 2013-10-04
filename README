@@ -1,0 +1,10 @@
+motion change detection using frame difference
+===
+
+frame_diff = frame_i+1 - frame_i > DIFF_THRESH ? 255 : 0;
+
+median_filter on frame_diff;
+
+count the ratio of 255;
+
+
